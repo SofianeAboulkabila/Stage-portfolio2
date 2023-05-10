@@ -1,0 +1,116 @@
+/* Définition du conteneur principal avec un flexbox */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, white, gray, black);
+}
+
+img {
+    max-width: 100%;
+}
+
+#add-form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 80%;
+     max-width: 500px;
+}
+
+table {
+background-color: rgba(255, 255, 255, 0.8);
+padding: 20px;
+border-radius: 10px;
+margin: 0 auto; 
+width: 80%; 
+max-width: 800px; 
+}
+
+/* Style des cellules */
+td,
+th {
+    padding: 10px;
+}
+
+/* Style des boutons */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Effet de box glass */
+#add-form,
+table {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Utilisation des clamp pour le responsive */
+h1 {
+    font-size: clamp(2rem, 5vw, 4rem);
+}
+
+h2 {
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+label,
+input {
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
+td,
+th {
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+button {
+    font-size: clamp(0.8rem, 1.5vw, 1.2rem);
+}
+
+/* [ {
+    "name": "Calculatrice",
+        "link": "https://github.com/SofianeAboulkabila/calculatrice",
+        "img": "/assets/img/calculatrice.png",
+        "skills": ["HTML", "CSS", "JavaScript", "Bootstrap"]
+}
+
+,
+{
+"name": "Vente Vinyle",
+    "link": "https://github.com/SofianeAboulkabila/ECF",
+    "img": "/assets/img/vinyle.png",
+    "skills": ["HTML", "CSS", "JavaScript", "Bootstrap"]
+}
+
+,
+{
+"name": "Marvel API",
+    "link": "https://github.com/SofianeAboulkabila/API-Marvel",
+    "img": "/assets/img/marvel.png",
+    "skills": ["HTML", "CSS", "JavaScript(API)"]
+}
+
+,
+{
+"name": "Pokemon API",
+    "link": "https://github.com/SofianeAboulkabila/Pokemon-API-finale",
+    "img": "/assets/img/pokemon.png",
+    "skills": ["HTML", "CSS", "JavaScript(API)"]
+}
+
+,
+{
+"name": "Quizz JS",
+    "link": "https://github.com/SofianeAboulkabila/javascript-quizz",
+    "img": "/assets/img/quizz.png",
+    "skills": ["HTML", "CSS", "JavaScript"]
+}
+
+] */
